@@ -1,6 +1,11 @@
 DSL Queries
 ==========================================================================
 
+**NOTE: This library is now hosted on github packages at
+https://github.com/openfinanceio/ts-dsl-queries. For the latest updates, please use the package
+`@openfinanceio/ts-dsl-queries` and point npm to github package repo
+([github guide](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-npm-for-use-with-github-packages)).**
+
 This library was intended to make general data filter queries more manageable. The problems
 it attempts to solve are that, when we request data from some datasource (say, a REST API or
 a database), a) that request should be agnostic about the underlying datasource implementation,
