@@ -1,6 +1,6 @@
-import * as errors from "@openfinance/http-errors";
+import * as errors from "@openfinanceio/http-errors";
 
-export { ObstructionInterface } from "@openfinance/http-errors";
+export { ObstructionInterface } from "@openfinanceio/http-errors";
 
 export class BadQuerySpec extends errors.InternalServerError {
   public readonly name: string = "BadQuerySpec";

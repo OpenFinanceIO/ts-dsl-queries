@@ -1,5 +1,5 @@
 {
-  "name": "@openfinance/dsl-queries",
+  "name": "@openfinanceio/dsl-queries",
   "version": "2.3.3",
   "description": "A small node library for normalizing and validating incoming DSL queries in a specific format.",
   "repository": {
@@ -15,7 +15,7 @@
   "author": "OpenFinance",
   "license": "MIT",
   "dependencies": {
-    "@openfinance/http-errors": "^1.2.0"
+    "@openfinanceio/http-errors": "^1.2.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.0",

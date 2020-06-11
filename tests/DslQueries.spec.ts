@@ -10,7 +10,7 @@ import {
   DslQueryData,
   applyFieldMap,
 } from "../src/index";
-import * as errors from "@openfinance/http-errors";
+import * as errors from "@openfinanceio/http-errors";
 
 const complexQueryData: DslQueryData = {
   o: "and",
